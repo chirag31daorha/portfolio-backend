@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/contact")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://chirag-porfolio.vercel.app/")
 public class ContactController {
 
     @Autowired
